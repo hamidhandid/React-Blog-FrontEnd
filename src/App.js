@@ -56,7 +56,7 @@ class App extends React.Component {
             {this.state.news.map((item, index) =>
                 <div key={index}>
                     <h1>{item.title}</h1>
-                    <p>{item.body}</p>
+                    <p>{item.text}</p>
                 </div>
             )}
         </div>
